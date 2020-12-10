@@ -61,6 +61,9 @@ $ docker rm 9bf93bf90865
 
 # Save the container state into an image
 $ docker commit 9bf93bf90865
+
+# Delete all stopped containers
+$ docker system prune
 ```
 
 ## Dockerfiles
